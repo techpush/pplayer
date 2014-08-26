@@ -1,0 +1,23 @@
+*{margin:0px;padding:0px;}
+html {
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      overflow:hidden !important;
+}
+body{background-color:#000;overflow:hidden;cursor:default;}
+#pplay{background:#eef;margin:0px;padding:0px;}
+.bella-pplay{border:none;background-color:#000;overflow:hidden !important;}
+.bella-pplay .inner{position:relative;top:0px;left:0px;width:100%;height:100%;background-color:#000;}
+.bella-pplay .inner div{
+	position:absolute;top:0px;left:0px;width:100%;height:100%;
+	background: #000 url(../img/peaceful-moment.png) no-repeat center center;background-size:cover;
+}
+.bella-pplay .inner div.message{padding-top:10%;text-align:center;}
+.bella-pplay .inner div.message span{display:block;margin:auto;text-align:center;}
+.bella-pplay .inner div.message .line{font:600 42px 'McLaren', 'cursive';color:#fff;text-shadow:2px 2px 4px #000;}
+.bella-pplay .inner div.message .line.black{color:#000;opacity:0;transition: all 3000ms ease-in-out;}
+.bella-pplay .inner div.message .line.violet{color:#f0d;opacity:0;transition: all 3000ms ease-in-out;}
+.bella-pplay .inner div.message .line.yellow{color:#ff0;opacity:0;transition: all 3000ms ease-in-out;}
+.bella-pplay .inner .fullscreen{position:fixed;height:40px;width:100%;text-align:center;top:auto;bottom:10px;font:600 24px 'Alike', 'serif';color:#0f0;text-shadow:2px 2px 5px #333;}
+.bella-pplay .inner .fullscreen.white{color:#fff;opacity:0;transition: all 3000ms ease-in-out;}
+iframe, img{display:none;}
